@@ -28,6 +28,13 @@ body, html {
   overflow: hidden;
 }
 
+body, .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 :root {
   /* typography */
   font-family: 'Kumbh Sans', sans-serif;
@@ -49,6 +56,7 @@ body, html {
   top: -694.97px;
   transform: rotate(65deg);
   opacity: 0.25;
+  z-index: -1;
 }
 .circle2 {
   position: absolute;
@@ -58,7 +66,38 @@ body, html {
   transform: rotate(-5deg);
 }
 
+/* CARD */
+.card {
+  display: relative;
+  height: 374px;
+  width: 326px;
+  border-radius: 15px;
 
+  /* background */
+  background: #FFFFFF;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  z-index: 1;
+}
+  .header-bg, .bg-pattern {
+    height: 107%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .image {
+    position: relative;
+    /* background-color: purple; */
+    top: -44px;
+  }
+    .photo {
+      position: relative;
+      border: 5px solid #FFFFFF;
+      border-radius: 50%;
+    }
+
+
+  .description-box {
+    display: relative;
+  }
 
 /* ========================================================================= */
 
