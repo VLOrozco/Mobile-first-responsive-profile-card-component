@@ -35,9 +35,6 @@ body {
   align-items: center;
 }
 
-
-
-
 /* ========================================================================= */
 
 /* 2. LAYOUT */
@@ -47,7 +44,7 @@ body {
   position: absolute;
   width: 622px;
   height: 621px;
-  left: -475px;
+  left: -175px;
   top: -694.97px;
   transform: rotate(65deg);
   opacity: 0.25;
@@ -80,7 +77,6 @@ body {
   }
   .image {
     position: relative;
-    /* background-color: purple; */
     top: -51px;
     left: 110px;
     border-radius: 50%;
@@ -90,7 +86,6 @@ body {
       border-radius: 50%;
       border: 5px solid #FFF;
     }
-
 
   .description-box {
     /* background-color: blue; */
@@ -103,7 +98,6 @@ body {
     .name-age {
       display: flex;
       align-items: center;
-
     }
       .name {
         height: 22px;
@@ -121,39 +115,35 @@ body {
         margin-left: -5px;
       }
 
-    hr {
-      background-color: hsla(228, 9%, 92%, 1);
-      height: 1px;
-      width: 326px;
-      border: none;
-      margin-top: 39px;
-    }
+  hr {
+    background-color: hsla(228, 9%, 92%, 1);
+    height: 1px;
+    width: 326px;
+    border: none;
+    margin-top: 39px;
+  }
 
-    .stats-box {
-      /* background-color: purple; */
-      height: 40px;
-      width: 95%;
-      margin-top: 2.1em;
-      margin-left: 9px;
-      display: inline-flex;
-      justify-content: space-around;
+  .stats-box {
+    height: 40px;
+    width: 95%;
+    margin-top: 2.1em;
+    margin-left: 9px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+    .flwr-box, .lk-box, .photo-box {
+      display: flex;
+      flex-direction: column;
       align-items: center;
+      width: 47px;
     }
-      .flwr-box, .lk-box, .photo-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 47px;
-      }
-
       .followers, .likes, .photo {
         height: 22px;
-        /* background-color: pink; */
         margin-bottom: 0;
       }
       .flwrs-txt, .likes-txt, .photo-txt {
         height: 22px;
-        /* background-color: pink; */
         margin-top: 5px;
       }
 
@@ -197,7 +187,6 @@ body {
     line-height: 12.4px;
     letter-spacing: 1.5px;
   }
-
 
 .attribution {
   font-size: 11px; text-align: center;
