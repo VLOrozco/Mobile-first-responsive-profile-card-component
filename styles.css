@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* ========================================================================= */
 
 /* TABLE OF CONTENTS */
@@ -11,6 +13,23 @@
 /* ========================================================================= */
 
 /* 1. GLOBAL */
+:root {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  /* typography */
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+}
 
 
 
@@ -28,7 +47,12 @@
 
 
 
-
+.attribution {
+  font-size: 11px; text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 /* ========================================================================= */
 
