@@ -64,10 +64,9 @@ body {
 /* CARD */
 .card {
   display: relative;
-  height: 374px;
+  height: 376px;
   width: 326px;
   border-radius: 15px;
-  margin-top: 39px;
 
   /* background */
   background: #FFFFFF;
@@ -82,7 +81,7 @@ body {
   .image {
     position: relative;
     /* background-color: purple; */
-    top: -53px;
+    top: -51px;
     left: 110px;
     border-radius: 50%;
   }
@@ -98,7 +97,7 @@ body {
     position: absolute;
     height: 49px;
     width: 136px;
-    margin-top: -48.7px;
+    margin-top: -47.6px;
     margin-left: 94px;
   }
     .name-age {
@@ -127,8 +126,41 @@ body {
       height: 1px;
       width: 326px;
       border: none;
-      margin-top: 35.5px;
+      margin-top: 39px;
     }
+
+    .stats-box {
+      /* background-color: purple; */
+      height: 40px;
+      width: 95%;
+      margin-top: 2.1em;
+      margin-left: 9px;
+      display: inline-flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+      .flwr-box, .lk-box, .photo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 47px;
+      }
+
+      .followers, .likes, .photo {
+        height: 22px;
+        /* background-color: pink; */
+        margin-bottom: 0;
+      }
+      .flwrs-txt, .likes-txt, .photo-txt {
+        height: 22px;
+        /* background-color: pink; */
+        margin-top: 5px;
+      }
+
+  .attribution {
+    position: absolute;
+    bottom: 100px;
+  }
 
 /* ========================================================================= */
 
@@ -154,6 +186,16 @@ body {
   .photo-txt {
     color: #6B7082;
     font-weight: 300;
+  }
+
+  .followers, .likes, .photo {
+    font-size: 18px;
+    line-height: 22.32px;
+  }
+  .flwrs-txt, .likes-txt, .photo-txt {
+    font-size: 10px;
+    line-height: 12.4px;
+    letter-spacing: 1.5px;
   }
 
 
