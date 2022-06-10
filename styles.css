@@ -28,18 +28,13 @@ body, html {
   overflow: hidden;
 }
 
-body, .card {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-:root {
-  /* typography */
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: 10px;
-}
 
 
 
@@ -79,26 +74,42 @@ body, .card {
   z-index: 1;
 }
   .header-bg, .bg-pattern {
-    height: 107%;
     width: 100%;
     border-radius: 15px 15px 0 0;
   }
   .image {
     position: relative;
     /* background-color: purple; */
-    top: -44px;
-    border: 5px solid #FFFFFF;
+    top: -46.8px;
+    left: 110px;
     border-radius: 50%;
   }
-    .photo {
+    .photo-main {
       position: relative;
       border-radius: 50%;
+      border: 5px solid #FFF;
     }
 
 
   .description-box {
-    display: relative;
+    background-color: blue;
+    display: block;
+    height: 49px;
+    width: 135px;
+    margin-top: 28px;
+    margin-bottom: 24px;
   }
+    .name-age {
+      height: 23px;
+      width: 23px;
+    }
+    .name {
+      height: 22px;
+      width: 104px;
+    }
+    /* .age {
+      position: relative;
+    } */
 
 /* ========================================================================= */
 
