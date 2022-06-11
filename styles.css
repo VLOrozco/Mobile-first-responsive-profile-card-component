@@ -201,3 +201,39 @@ body {
 /* ========================================================================= */
 
 /* 4. MEDIA QUERY */
+
+@media screen and (min-width: 1000px) {
+  .circle1 {
+    top: -505px;
+    left: -290px;
+    transform: rotate(8deg);
+    opacity: 1.5;
+  }
+  .circle2 {
+    left: 710px;
+    top: 250px;
+    opacity: 1;
+  }
+  .card {
+    height: 375px;
+    width: 350px;
+    box-shadow: 0px 50px 100px -20px hsla(197, 85%, 20%, 0.5);
+  }
+  .bg-pattern {
+  left: 0;
+  width: 100%;
+  }
+  .image {
+    left: 127px;
+  }
+  hr {
+    width: 350px;
+  }
+  .stats-box {
+    margin-top: 1.3em;
+  }
+  .flwrs-txt, .likes-txt, .photo-txt {
+    margin-top: 1.3em;
+  }
+
+}
