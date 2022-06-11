@@ -226,6 +226,9 @@ body {
   .image {
     left: 127px;
   }
+  .description-box {
+    margin-left: 116px;
+  }
   hr {
     width: 350px;
   }
