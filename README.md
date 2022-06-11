@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 #### Mobile View
-<img src="images/mobileView.png" alt="component mobile view" width="40%"/>
+<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
 
 
 #### Desktop View
